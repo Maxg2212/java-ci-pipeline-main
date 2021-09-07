@@ -1,7 +1,6 @@
 language: java
 script:
   ant main
-  javac CalculatorTest
   java CalculatorTest
 
 
