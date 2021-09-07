@@ -1,8 +1,8 @@
 language: java
 script:
   - ant main
-after_script: 
-  - javac CalcultatorTest
+after_script:
+  - javac CalculatorTest
   - java CalculatorTest
 
 
