@@ -3,7 +3,7 @@ script:
   - ant main
 after_script:
   - javac CalculatorTest.java
-  - java CalculatorTest.java
+  - java CalculatorTest
 
 
 
